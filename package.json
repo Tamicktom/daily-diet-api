@@ -1,0 +1,29 @@
+{
+	"name": "daily-diet-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/index.ts",
+		"build": "tsc src/index.ts --outDir dist",
+		"start": "NODE_ENV=production node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@elysiajs/node": "^1.2.6",
+		"@elysiajs/static": "^1.2.0",
+		"@elysiajs/swagger": "^1.2.2",
+		"@libsql/client": "^0.14.0",
+		"dotenv": "^16.4.7",
+		"drizzle-orm": "^0.40.0",
+		"elysia": "^1.2.25"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.10",
+		"drizzle-kit": "^0.30.5",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.2"
+	}
+}
